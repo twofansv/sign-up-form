@@ -1,3 +1,7 @@
+html {
+    font-size: 16px;
+}
+
 @font-face {
     font-family: 'Norse';
     src: url('font/Norse-Bold.woff2') format('woff2'),
@@ -17,14 +21,33 @@
 }
 
 body {
+    box-sizing: border-box;
+    font-family: "Norse", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    min-height: 100vh;
+}
+
+.whole.container {
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
-    font-family: "Norse", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    min-height: 100vh;
+    border: 2px solid;
+    margin: 1% 5% 1% 5%;
+
 }
 
 
 .header.container {
-    background: url(/images/forBackground-byAltumCodeOnUnsplash.jpg) no-repeat center/80%;
+    background: url(/images/forBackground-byAltumCodeOnUnsplash.jpg) center/100% 100%;
+    width: 50%;
+
 }
 
+.form.container {
+    width: 50%;
+    height: 50%;
+}
+
+h1 {
+    text-align: center;
+}
