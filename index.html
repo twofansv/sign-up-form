@@ -16,15 +16,34 @@
 
         <div class="form container">
                 <p>This is not a real online service! You know you need something like this in your life
-                    to help you realize your deepest dreams. </p>
-                <p>Sign up now to get started.</p>
+                    to help you realize your deepest dreams. Sign up now to get started.</p>
+                
                 <p>You know you want to.</p>
-            <form action="" method="GET">
+            <form id="sign-up" action="" method="GET">
                 <p>Let's Do This!</p>
-                <label for="user_firstName">F I R S T  N A M E</label>
+                <label for="user_firstName">FIRST NAME</label>
                 <input type="text" name="user_firstName" id="firstName">
 
+                <label for="user_lastName">LAST NAME</label>
+                <input type="text" name="user_lastName" id="lastName">
+
+                <label for="user_mail">EMAIL</label>
+                <input type="email" name="user_mail" id="mail">
+
+                <label for="user_tel">PHONE NUMBER</label>
+                <input type="tel" name="user_tel" id="tel">
+
+                <label for="user_pass">PASSWORD</label>
+                <input type="password" name="user_pass" id="password">
+
+                <label for="user_passConfirm">CONFIRM PASSWORD</label>
+                <input type="password" name="user_passConfirm" id="password">
             </form>
+
+            <button type="submit" form="sign-up">Create Account</button>
+
+            <p>Already have an account? <a href="#">Log in</a></p>
+
         </div>
     </div>
 </body>
