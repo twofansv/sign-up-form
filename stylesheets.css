@@ -37,14 +37,18 @@ body {
 }
 
 
-.header.container {
+header {
     background: url(/images/forBackground-byAltumCodeOnUnsplash.jpg) center/100% 100%;
     width: 35%;
 }
 
-.form.container {
+main {
     width: 65%;
     height: 65%;
+}
+
+article, footer {
+    margin: 50px;
 }
 
 h1 {

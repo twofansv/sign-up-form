@@ -9,17 +9,20 @@
 <body>
     <div class="whole container">
 
-        <header class="header container">
+        <header>
             <div class="dark-glassBG">
                 <h1>ODIN</h1>
             </div>
         </header> 
 
-        <main class="form container">
+        <main>
+            <article>
                 <p>This is not a real online service! You know you need something like this in your life
                     to help you realize your deepest dreams. Sign up now to get started.</p>
                 
                 <p>You know you want to.</p>
+            </article>
+
             <form id="sign-up" action="" method="GET">
                 <p>Let's Do This!</p>
                 <label for="user_firstName">FIRST NAME</label>
@@ -39,12 +42,20 @@
 
                 <label for="user_passConfirm">CONFIRM PASSWORD</label>
                 <input type="password" name="user_passConfirm" id="password">
+
+
+            </form>
+
+                <footer>
+                    <button type="submit" form="sign-up">Create Account</button>
+                    <p>Already have an account? <a href="#">Log in</a></p>
+                </footer>
+            
         </main> 
 
-        <footer>
-            <button type="submit" form="sign-up">Create Account</button>
-            <p>Already have an account? <a href="#">Log in</a></p>
-        </footer>
+        
+            
+        
 
     </div>
 </body>
