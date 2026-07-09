@@ -59,12 +59,28 @@ h1 {
     opacity: 1;
 }
 
+h2 {
+    margin-left: 50px;
+}
+
+.form-row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+
 .dark-glassBG {
     background-color: rgb(0 0 0 / 0.5);
     margin-top: 5rem;
 }
 
-p, label {
+p, label, h2 {
     font-family: Arial;
 }
 
@@ -72,4 +88,6 @@ p, label {
 form {
     border: 1px solid black;
 }
+
+
 
