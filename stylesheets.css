@@ -135,6 +135,7 @@ h2 {
     bottom: 0;
     left: 50%;
     transform: translate(-50%);
+    font-size: 0.9rem;
 }
 
 a {
