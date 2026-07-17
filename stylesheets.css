@@ -40,7 +40,7 @@ body {
     min-height: 100vh;
     margin: 1% 15% 1% 15%;
     background-color: #f8f8f8;
-    border-radius: 100px;
+    border-radius: 50px;
 
 }
 
@@ -49,6 +49,7 @@ header {
     background: url(/images/forBackground-byAltumCodeOnUnsplash.jpg) center;
     width: 35%;
     position: relative;
+    border-radius: 50px 0px 0px 50px;
 }
 
 header > p {
