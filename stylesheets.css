@@ -78,7 +78,7 @@ article > p:nth-of-type(2){
 label {
     letter-spacing: 1.5px;
     font-size: 0.7rem;
-    color: rgb(85, 85, 85);
+    color: rgb(73, 73, 73);
     font-weight: 600;
     margin-bottom: 5px;
 }
@@ -149,13 +149,14 @@ p, label, h2 {
 
 form {
     background-color: white;
-    box-shadow: 0 8px 4px -5px rgb(223, 223, 223);
+    box-shadow: 0 8px 4px -5px rgb(206, 205, 205);
     padding: 10px 0px;
 }
 
 input {
     width: 230px;
-    height: 20px;
+    height: 26px;
+    
 }
 
 
