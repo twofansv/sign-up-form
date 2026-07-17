@@ -181,4 +181,11 @@ button {
     padding: 15px;
     width: 215px;
     font-weight: bold;
+    box-shadow: 3px 5px 5px rgb(185, 185, 185);
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(228, 140, 26);
 }
