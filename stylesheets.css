@@ -33,6 +33,7 @@ body {
     min-height: 100vh;
     border: 2px solid;
     margin: 1% 5% 1% 5%;
+    background-color: #f8f8f8;
 
 }
 
@@ -55,6 +56,32 @@ main {
 article, footer {
     margin: 50px;
 }
+
+article {
+    margin-top: 10%;
+}
+
+article > p {
+    margin-bottom: 0;
+}
+
+article,
+h2
+{
+    font-size: 1.5rem;
+}
+
+article > p:nth-of-type(2){
+    margin-top: 0;
+}
+
+label {
+    letter-spacing: 1.5px;
+    font-size: 0.7rem;
+    font-weight: 520;
+}
+
+
 
 h1 {
     display: flex;
@@ -118,9 +145,14 @@ p, label, h2 {
 
 
 form {
-    border: 1px solid black;
+    background-color: white;
+    box-shadow: 10px 5px 5px rgb(121, 120, 120);
 }
 
+input {
+    width: 250px;
+    height: 20px;
+}
 
 
 
